@@ -1,0 +1,46 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Common */
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Header */
+header {
+    background-color: lightblue;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+/* Main */ 
+.col-left, .col-right {
+    background-color: blue;
+    float: left;
+    width: 20%;
+    min-height: 300px;
+}
+.col-middle {
+    background-color: magenta;
+    float: left;
+    width: calc(60% - 40px);
+    margin: auto 20px;
+    min-height: 600px;
+}
+
+/* Footer */
+footer {
+    background-color: lightblue;
+    height: 100px;
+    margin-top: 20px;
+}
